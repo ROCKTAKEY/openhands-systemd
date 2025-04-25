@@ -3,7 +3,7 @@ Description=Openhands
 
 [Service]
 Type=simple
-WorkingDirectory=/root/openhands
+WorkingDirectory=/root/systemd-openhands
 ExecStart=/root/openhands/up.sh
 ExecStop=/root/openhands/down.sh
 Restart=yes
