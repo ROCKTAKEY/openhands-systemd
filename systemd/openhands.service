@@ -1,0 +1,12 @@
+[Unit]
+Description=Openhands
+
+[Service]
+Type=simple
+WorkingDirectory=/root/openhands
+ExecStart=/root/openhands/up.sh
+ExecStop=/root/openhands/down.sh
+Restart=yes
+
+[Install]
+WantedBy=multi-user.target
