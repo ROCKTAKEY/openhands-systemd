@@ -3,9 +3,9 @@ Description=Openhands
 
 [Service]
 Type=simple
-WorkingDirectory=/root/systemd-openhands
-ExecStart=/root/openhands/up.sh
-ExecStop=/root/openhands/down.sh
+WorkingDirectory=/root/openhands-systemd
+ExecStart=/root/openhands-systemd/up.sh
+ExecStop=/root/openhands-systemd/down.sh
 Restart=yes
 
 [Install]
