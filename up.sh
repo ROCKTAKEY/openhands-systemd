@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=0.34
+VERSION=0.36
 
 docker pull docker.all-hands.dev/all-hands-ai/runtime:${VERSION}-nikolaik
 
